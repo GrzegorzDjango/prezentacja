@@ -153,3 +153,10 @@ from django.contrib.messages import constants as messages
 MESSAGE_TAGS = {
     messages.ERROR: 'danger',
 }
+
+# local_settings będzie plikiem zapisanym na serwerze digital ocean i wiele danych
+# będzie nadpisanych
+try:
+    from .local_settings import *
+except ImportError:
+    pass
