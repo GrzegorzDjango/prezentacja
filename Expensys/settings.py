@@ -139,7 +139,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 #lokacja folderu staticfiles gdzie są css, img, javascripty i obrazki :
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static')
+#    os.path.join(BASE_DIR, 'static')
 ]
 
 # https://simpleisbetterthancomplex.com/tutorial/2016/08/01/how-to-upload-files-with-django.html
