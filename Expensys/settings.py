@@ -134,12 +134,12 @@ USE_TZ = True
 STATIC_URL = '/static/'
 #collectstatic tutaj da wszystkie statici
 #python manage.py collectstatic stworzy folder static w roocie (równolegle do folderu projektu btre i templates
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+#STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 
 #lokacja folderu staticfiles gdzie są css, img, javascripty i obrazki :
 STATICFILES_DIRS = [
-#    os.path.join(BASE_DIR, 'static')
+    os.path.join(BASE_DIR, 'static')
 ]
 
 # https://simpleisbetterthancomplex.com/tutorial/2016/08/01/how-to-upload-files-with-django.html
